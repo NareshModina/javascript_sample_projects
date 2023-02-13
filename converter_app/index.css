@@ -16,7 +16,7 @@ body{
     margin-top: 0px;
     width: 550px;
     height: 225px;
-    background-color: #6943FF;
+    background-color: #0C4A6E;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,14 +38,14 @@ h1{
     font-weight: bold;
 }
 input{
-    width: 117px;
+    width: 240px;
     height: 83px;
-    border-radius: 3px;
-    border-color: #40ffff;
+    border-radius: 5px;
+    border-color: #ffffff;
     font-size: 58px;
     font-weight: bolder;
     text-align: center;
-    background-color: #6943FF;
+    background-color: #0C4A6E;
     color: white;
 }
 button{
