@@ -6,8 +6,8 @@ body{
 }
 nav{
     width: 100vw;
-    height: 3.5rem;
-    background-color: #26A69A;
+    height: 3rem;
+    background-color: #4DB6AC;
     text-align: center;
     display: flex;
     justify-content:space-between;
@@ -20,7 +20,7 @@ h1, h2, span{
     color: white;
 }
 .rolling-area{
-    width: 700px;
+    width: 93vw;
     height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -29,8 +29,9 @@ h1, h2, span{
 }
 input{
     width: 100%;
+    height: 6rem;
+    font-size: 1rem;
     text-align: center;
-    height: 3rem;
     background-color: white;
     border-radius: 3px;
     border: 2px solid antiquewhite;
@@ -50,7 +51,7 @@ input:focus{
     font-weight: 900;
     margin: 1rem auto;
     cursor: pointer;
-    background-color: rgb(30, 88, 110);
+    background-color: #FFC107;
     color: white;
     border: none;
     border-radius: 50%;
@@ -61,8 +62,31 @@ input:focus{
 }
 .card{
     width: 100%;
-    height: 500px;
+    height: 750px;
+    margin-bottom: 0.8rem;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.20);
+}
+.top-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-tracks: center;
+    margin-top: 0.5rem;
+}
+
+#name-section, #date-time-section{
+    color: black;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
 }
